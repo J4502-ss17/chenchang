@@ -3,10 +3,14 @@
 p {
   color:#666666;
   font-family:Helvetica,Arial,sans-serif;
+  font-size:18px;
 }
 
 h1 {
   font-family: Georgia, Arial, serif;
+  color: #111;
+  font-weight: bold;
+  font-size:40px;
 }
 
 body {
@@ -17,7 +21,6 @@ body {
 #container {
   width:100%;
   margin: 0;
-  text-align: center;
 }
 
 #nav {
