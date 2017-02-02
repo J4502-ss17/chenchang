@@ -11,10 +11,11 @@ h1 {
 
 body {
   background-color:#bdbdbd;
+  text-align: center;
 }
 
 #container {
-  width:95%;
+  width:100%;
   margin: 0;
   text-align: center;
 }
@@ -22,10 +23,11 @@ body {
 #nav {
   padding: 0;
   list-style-type: none;
+  text-align: center;
 }
 
 #nav li {
-  margin: 0 auto;
+  margin: 0 ;
   padding: 0;
   border-bottom: 1px solid #ccc;
 }
@@ -51,7 +53,7 @@ body {
   margin-top: 0;
   font-style: italic;
   font-size: 0.8em;
-  text-align: right;
+  text-align: center;
 }
 
 #footer {
