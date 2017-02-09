@@ -1,13 +1,16 @@
 /*styles go here*/
+html{
+  font-size:100%
+}
 
 p {
   color:#666666;
-  font-family:Helvetica,Arial,sans-serif;
-  font-size:18px;
+  font-family:'Roboto', Helvetica,Arial,sans-serif;
+  font-size:25px;
 }
 
 h1 {
-  font-family: Georgia, Arial, serif;
+  font-family:"Merriweather", georgia, "Times New Roman", serif;
   color: #111;
   font-weight: bold;
   font-size:40px;
@@ -24,12 +27,16 @@ body {
 }
 
 #nav {
+  text-align: center;
   padding: 0;
   list-style-type: none;
-  text-align: center;
+  font-family:  'Merriweather Sans', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  width: 100%;
 }
 
 #nav li {
+  text-align: center;
   margin: 0 ;
   padding: 0;
   border-bottom: 1px solid #ccc;
@@ -40,10 +47,8 @@ body {
   color:#111;
   background-color: #de2d26;
   font-weight: bold;
-  text-align: center;
   text-decoration: none;
   padding: 4px;
-  font-family: Helvetica, Arial, sans-serif;
 }
 
 #nav a:hover, #nav a:active {
@@ -52,20 +57,21 @@ body {
 
 .caption{
   color: black;
-  font-family: Georgia, Arial, serif;
+    font-family: Georgia, "Times New Roman", serif;
   margin-top: 0;
   font-style: italic;
-  font-size: 0.8em;
+  font-size: 16px;
   text-align: center;
 }
 
 #footer {
   color: black;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 0.8em;
   border-top: 1px solid black;
 }
 
 img {
+   width: 45%;
   border: none;
 }
