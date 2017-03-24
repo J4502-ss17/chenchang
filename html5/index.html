@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>A basic page</title>
+	<link rel="stylesheet" href="style.css">
+
+	<script>
+	function draw_canvas() {
+	  var canvas = document.getElementById("a");
+	  var context = canvas.getContext("2d");
+	  context.fillRect(50, 25, 150, 100);
+	}
+	</script>
+
+</head>
+
+<body>
+
+	<h1>Here's my cool canvas example</h1>
+	<canvas id=“a” width=”300px” height =”200px” onclick=”draw_canvas()；>
+	</canvas>
+
+<h1>here's my cool video</h1>
+
+
+<video width="568" height ="328" controls poster="images/placeholder.png">
+	<source src="movies/chester.mov" type="video/mp4" />
+</video>
+
+<audio controls>
+  <source src="audio/backwards.mp3" type ="audio/mp3">
+<source src="audio/backwards.ogg" type ="audio/ogg">
+
+</audio>
+
+
+
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+<!--<object type="application/x-shockwave-flash" data="player.swf?soundFile=audio/backwards.mp3"><param name="movie" value="player.swf?soundFile=audio/backwards.mp3"></object>-->
