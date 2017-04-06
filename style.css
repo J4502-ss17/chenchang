@@ -136,14 +136,41 @@ header,  article, aside, footer {
   padding: 10px;
 }
 
-/*These styles activate when the page is larger than 800px wide*/
+img, .caption {
+    display: none;
+}
 
-@media (min-width:800px) {
+
+/*These styles activate when the page is larger than 600px wide*/
+@media screen and (min-width:600px) {
+
+  img, .caption{
+    display: block;
+  }
+
+  /*#container {
+      width: 80%;
+  }*/
 
     .navigation {
+      flex-flow: row wrap;
+      justify-content: flex-end;
+    }
+
+}
+/*These styles activate when the page is larger than 800px wide*/
+
+@media screen and (min-width:800px) {
+
+    /*.navigation {
         flex-flow: row wrap;
         justify-content: flex-end;
-    }
+    }*/
+
+    /*#container {
+        width: 70%;
+        max-width: 60em;
+    }*/
 
     .navigation a {
         border: none;
@@ -159,6 +186,7 @@ header,  article, aside, footer {
 
     article {
 		flex: 3 0px;
+    max-width: 40em;
 	}
 
     .aside-1 {
@@ -200,4 +228,9 @@ header,  article, aside, footer {
     .first {
         margin-top: 0;
     }
+
   }
+
+  /*#container{
+      width: 70%;
+  }*/
