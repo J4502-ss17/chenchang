@@ -19,7 +19,7 @@ h1 {
 }
 
 body {
-  background-color:#bdbdbd;
+  background-color:grey;
   text-align: center;
 }
 
@@ -57,7 +57,6 @@ body {
 .navigation{
 	list-style: none;
 	margin: 0;
-	background: gray;
     padding: 0;
     display: flex;
 	flex-flow: column;
@@ -106,18 +105,21 @@ header {
   background: tomato;
 }
 
+article {
+  background: grey;
+}
+
 footer {
   background: tomato;
   font-family: 'Ubuntu', sans-serif;
   border-top: 1px solid black;
 }
 
-article {
-  background: gray;
-}
+
 
 .aside-1 {
   background:#76acc9;
+
 }
 
 .aside-2 {
@@ -148,11 +150,13 @@ img, .caption {
     display: block;
   }
 
-  /*#container {
+  #container {
       width: 80%;
-  }*/
+      margin-left:auto;
+      margin-right:auto;
+  }
 
-    .navigation {
+  .navigation {
       flex-flow: row wrap;
       justify-content: flex-end;
     }
@@ -167,10 +171,11 @@ img, .caption {
         justify-content: flex-end;
     }*/
 
-    /*#container {
-        width: 70%;
+    #container {
+        width: 90%;
         max-width: 60em;
-    }*/
+
+    }
 
     .navigation a {
         border: none;
@@ -217,7 +222,7 @@ img, .caption {
 
 
     .image {
-        width: 50%;
+        width: 40%;
         margin-right: 10px;
     }
 
